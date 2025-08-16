@@ -4,7 +4,6 @@ A collection of modern, responsive portfolio templates built with Next.js and Ta
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-🌐 **[View All Templates](https://www.devportfoliotemplates.com)**
 
 ## Features
 
@@ -24,29 +23,9 @@ A collection of modern, responsive portfolio templates built with Next.js and Ta
 
 ## Getting Started
 
-You have two options to get started with your preferred template:
-
 ### Option 1: Using Git Sparse Checkout
 
-If you want to clone only a specific portfolio template:
-
-```bash
-git clone --no-checkout https://github.com/devportfoliotemplates/devportfoliotemplates.git
-cd devportfoliotemplates
-git sparse-checkout init --cone
-git sparse-checkout set example-portfolio-template
-git checkout
-```
-
-Replace `example-portfolio-template` with your preferred template name (`frontend-developer-portfolio-template`, `backend-developer-portfolio-template`, etc.).
-
 ### Option 2: Direct Download
-
-You can download a specific portfolio template as a ZIP file:
-
-1. Visit [download-directory.github.io](https://download-directory.github.io/)
-2. Paste the URL of your preferred portfolio folder (e.g., `https://github.com/devportfoliotemplates/devportfoliotemplates/tree/main/frontend-developer-portfolio-template`)
-3. Download and extract the ZIP file
 
 ### Running the Template
 
@@ -133,23 +112,7 @@ pnpm dev
    - Check image paths are correct
    - Ensure images are in the `public` directory
 
-## Deployment
 
-Follow these steps to deploy your portfolio for free using GitHub and Vercel:
-
-1. Create a new GitHub repository
-
-2. Push your portfolio to GitHub
-
-3. Deploy with Vercel:
-   - Go to [Vercel](https://vercel.com)
-   - Sign up or log in with GitHub
-   - Click "New Project"
-   - Import your GitHub repository
-   - Vercel will automatically detect Next.js
-   - Click "Deploy"
-
-Your portfolio will be live in minutes with a free Vercel domain (e.g., `your-repo.vercel.app`). You can later add a custom domain in your Vercel project settings.
 
 ## Contributing
 
