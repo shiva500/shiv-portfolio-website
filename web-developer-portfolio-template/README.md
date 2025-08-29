@@ -1,6 +1,3 @@
-# Web Developer Portfolio Template
-
-[Demo](https://www.devportfoliotemplates.com/portfolio-templates/web-developer)
 
 ## Getting Started
 
@@ -11,7 +8,7 @@ You have two options to get started with this template:
 If you want to clone only this specific template:
 
 ```bash
-git clone --no-checkout https://github.com/devportfoliotemplates/devportfoliotemplates.git
+git clone --no-checkout 
 cd devportfoliotemplates
 git sparse-checkout init --cone
 git sparse-checkout set web-developer-portfolio-template
@@ -22,8 +19,8 @@ git checkout
 
 You can download this template as a ZIP file:
 
-1. Visit [download-directory.github.io](https://download-directory.github.io/)
-2. Paste the URL of this portfolio folder: `https://github.com/devportfoliotemplates/devportfoliotemplates/tree/main/web-developer-portfolio-template`
+1. Visit [download-directory.github.io]
+2. Paste the URL of this portfolio folder
 3. Download and extract the ZIP file
 
 ### Running the Template
@@ -119,22 +116,3 @@ Follow these steps to deploy your portfolio for free using GitHub and Vercel:
 
 2. Push your portfolio to GitHub
 
-3. Deploy with Vercel:
-   - Go to [Vercel](https://vercel.com)
-   - Sign up or log in with GitHub
-   - Click "New Project"
-   - Import your GitHub repository
-   - Vercel will automatically detect Next.js
-   - Click "Deploy"
-
-Your portfolio will be live in minutes with a free Vercel domain (e.g., `your-repo.vercel.app`). You can later add a custom domain in your Vercel project settings.
-
-## Support
-
-If you find these templates helpful, please consider:
-
-- Starring the repository ⭐
-- Sharing with other developers
-- [Buying me a coffee](https://www.buymeacoffee.com/andreiancu) ☕
-
-For issues and feature requests, please [create an issue](https://github.com/devportfoliotemplates/devportfoliotemplates/issues).
